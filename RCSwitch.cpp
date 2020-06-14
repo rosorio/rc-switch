@@ -86,6 +86,7 @@ static const RCSwitch::Protocol PROGMEM proto[] = {
   { 365, { 18,  1 }, {  3,  1 }, {  1,  3 }, true },     // protocol 10 (1ByOne Doorbell)
   { 270, { 36,  1 }, {  1,  2 }, {  2,  1 }, true },     // protocol 11 (HT12E)
   { 320, { 36,  1 }, {  1,  2 }, {  2,  1 }, true }      // protocol 12 (SM5212)
+  { 100, { 4, 22 }, {  4, 11 }, {  9,  6 }, false },     // protocol 13  used by Chacon On/Off remote plugs (54663)
 };
 
 enum {
